@@ -1,3 +1,7 @@
+# Portifolio - Thaiza Capelão
+
+![image](https://user-images.githubusercontent.com/104083691/234973033-5760ad9c-fbc3-43bc-8405-221657e8e868.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
