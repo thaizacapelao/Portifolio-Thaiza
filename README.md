@@ -1,5 +1,7 @@
 # Portifolio - Thaiza Capelão
 
+Em construção.
+
 ![image](https://user-images.githubusercontent.com/104083691/234973033-5760ad9c-fbc3-43bc-8405-221657e8e868.png)
 
 # Getting Started with Create React App
