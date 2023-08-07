@@ -6,7 +6,7 @@ import headerImg from "../assets/img/header-img.png";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Front Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = [" Front-End", " Web Designer", " UI/UX Designer"];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -51,8 +51,8 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Bem vindo ao meu Portfólio</span>
             <h1>
-              {"Olá, eu sou uma Desenvolvedora web "}
-              <span className="wrap">{text}</span>
+              {"Olá! eu sou uma desenvolvedora "} <br/>
+              <span className="txt-rotate" dataPeriod="1000" data-rotate='[ " Front-end", " Web Designer", " UI/UX Designer" ]'><span className="wrap">{text}</span></span>
             </h1>
             <p>
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
