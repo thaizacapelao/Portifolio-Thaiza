@@ -34,6 +34,11 @@ export const Contactc = () => {
     setButtonText("Send");
     let result = response.json();
     setFormDetails(formInitialDetails);
+    if (result.code === 200) {
+        setStatus ({ sucess: true, message: 'Sua mensagem foi enviada com sucesso!'})
+    } else {
+        setStatus({ sucess: false, message: 'Algo deu errado, tente novamente mais tarde.'})
+    }
   }
 
   return (
